@@ -22,7 +22,7 @@ def read_long_description(path):
 # @see https://packaging.python.org/guides/packaging-namespace-packages/#native-namespace-packages  # noqa
 setup(
     name='python-package-template',
-    version=find_version('my-package/__init__.py'),
+    version=find_version('my_package/__init__.py'),
     author='Il Gu Yi',
     author_email='ilgu.yi.219@gmail.com',
     url='https://github.com/ilguyi/my-python-package-template',
@@ -54,7 +54,7 @@ setup(
     ],
     entry_points={
       'console_scripts': [
-        'project-main = my-package.main:main',
+        'project-main = my_package.main:main',
       ]
     },
     # test_suite='nose.collector',

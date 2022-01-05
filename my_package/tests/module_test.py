@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ilguyi import hello
+from my_package import hello
 
 
 class TestHello(TestCase):
