@@ -1,4 +1,4 @@
-from ilguyi.project import hello
+from ilguyi import hello
 
 
 def main():

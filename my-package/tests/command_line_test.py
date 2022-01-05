@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ilguyi.project import main
+from ilguyi import main
 
 
 class TestCmd(TestCase):
